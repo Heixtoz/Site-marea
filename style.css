@@ -1,7 +1,9 @@
 body {
-    background-color: black;
+     background: linear-gradient(120deg, #080808, #8B0000, black);
     color: white;
-    font-family: Arial;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    min-height: 100vh;
 }
 
 h1 {
@@ -26,6 +28,45 @@ p {
     li {
     font-size: 18px;
     margin-bottom: 10px;
+        }
 
+   div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 120px;
+   }
+   .index{
+     height: 290px;
+    width: 500px;
+    border-radius: 8px;
+   }
+   .entrada{
+    width: 150px;
+    height: 100px;
+    object-fit: inset;
+    border: 3px solid #8B0000;
+    padding: 4px;
+    border-radius: 10px;
+    background-color: #333;
+   }
+      img {
+   height: 240px;
+    width: 350px;
+    border-radius: 8px;
+      }
+   button {
+    background-color: #8B0000;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: 0.3s;
+   }
 
+   .button:hover {
+    background-color: #C00000;
+    transform: scale(1.05);
+   
 }
